@@ -4,9 +4,9 @@
         <attribute name="name" value="T00"/>
         <attribute name="authors" value="ASUS"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-03 03:29:22 PM"/>
+        <attribute name="saved" value="2025-10-03 03:37:51 PM"/>
         <attribute name="created" value="QVNVUztMQVBUT1AtRUdSSDg0OUI7MjAyNS0xMC0wMzswMjo1MzozMCBQTTsyNjIw"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtRUdSSDg0OUI7MjAyNS0xMC0wMzswMzoyOToyMiBQTTsyOzI3MzQ="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtRUdSSDg0OUI7MjAyNS0xMC0wMzswMzozNzo1MSBQTTszOzI3MzY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,48 +16,48 @@
             <input variable="y"/>
             <if expression="x MOD 2=0">
                 <then>
-                    <output expression="&quot;bilangan pertama: genap&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan pertama: Genap&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;bilangan pertama: ganjil&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan pertama: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="y MOD 2=0">
                 <then>
-                    <output expression="&quot;bilangan kedua: genap&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua: Genap&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;bilangan kedua: ganjil&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan kedua: Ganjil&quot;" newline="True"/>
                 </else>
             </if>
             <if expression="x&gt;Y">
                 <then>
-                    <output expression="&quot;bilangan pertama lebih besar&quot;" newline="True"/>
+                    <output expression="&quot;Bilangan pertama lebih besar&quot;" newline="True"/>
                 </then>
                 <else>
                     <if expression="y&gt;x">
                         <then>
-                            <output expression="&quot;kedua bilangan kedua lebih besar&quot;" newline="True"/>
+                            <output expression="&quot;Bilangan kedua lebih besar&quot;" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;kedua bilangan sama besar&quot;" newline="True"/>
+                            <output expression="&quot;Kedua bilangan sama besar&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
             </if>
             <if expression="(x MOD 2=0)&amp;&amp;(y MOD 2=0)">
                 <then>
-                    <assign variable="HasilPenjumlahan" expression="x+y"/>
-                    <output expression="&quot;hasil penjumlahan &quot;&amp; HasilPenjumlahan" newline="True"/>
+                    <assign variable="hasilpenjumlahan" expression="x+y"/>
+                    <output expression="&quot;Hasil penjumlahan: &quot;&amp; hasilpenjumlahan" newline="True"/>
                 </then>
                 <else>
                     <if expression="(x MOD 2 !=0)&amp;&amp;(y MOD 2 !=0)">
                         <then>
-                            <assign variable="HasilPerkalian" expression="x*y"/>
-                            <output expression="&quot;hasil perkalian:&quot;&amp;HasilPerkalian" newline="True"/>
+                            <assign variable="hasilperkalian" expression="x*y"/>
+                            <output expression="&quot;Hasil perkalian: &quot;&amp;hasilperkalian" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;Bebas jenis&quot;" newline="True"/>
+                            <output expression="&quot;Berbeda jenis&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
